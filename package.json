@@ -1,0 +1,45 @@
+{
+  "name": "rdf-ext-dist",
+  "version": "0.3.0",
+  "description": "Implements the RDF-Ext spec plus parsers (JSON-LD, RDF/XML, Turtle), serializers (JSON-LD, N-Triples) and stores (in memory, LDP, SPARQL)",
+  "keywords": [
+    "JSON-LD",
+    "RDF-Ext",
+    "RDF Interfaces",
+    "SPARQL",
+    "Turtle",
+    "NTriples"
+  ],
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Thomas Bergwinkl",
+    "email": "bergi@axolotlfarm.org",
+    "url": "https://www.bergnet.org/people/bergi/card#me"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zazukoians/rdf-ext-dist.git"
+  },
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "main": "rdf-ext.js",
+  "scripts": {
+    "1prepublish": "node prepublish.js"
+  },
+  "dependencies": {
+    "rdf-ext": "^0.3.0",
+    "rdf-store-inmemory": "^0.1.1",
+    "rdf-store-ldp": "^0.1.1",
+    "rdf-store-rdfstore-js": "^0.1.1",
+    "rdf-store-singlegraph": "^0.1.1",
+    "rdf-store-sparql": "^0.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "exorcist": "^0.4.0",
+    "uglify-js": "^2.4.24"
+  }
+}
