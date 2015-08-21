@@ -20,4 +20,9 @@ var mixin = function (options) {
 };
 
 
+if (!rdf.isNode) {
+  mixin();
+}
+
+
 module.exports = mixin;
