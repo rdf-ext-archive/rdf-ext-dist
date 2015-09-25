@@ -75,8 +75,7 @@ var uglify = function (source, target, options) {
 var excludes = [
   fs.realpathSync(path.join(__dirname, 'node_modules/rdf-ext/lib/utils-node.js')),
   fs.realpathSync(path.join(__dirname, 'node_modules/rdf-ext/node_modules/es6-promise/dist/es6-promise.js')),
-  fs.realpathSync(path.join(__dirname, 'node_modules/rdf-ext/node_modules/es6-promise/dist/es6-promise.min.js')),
-  fs.realpathSync(path.join(__dirname, 'node_modules/rdf-ext/node_modules/xmldom')) + '/**/*.*'
+  fs.realpathSync(path.join(__dirname, 'node_modules/rdf-ext/node_modules/es6-promise/dist/es6-promise.min.js'))
 ];
 
 
