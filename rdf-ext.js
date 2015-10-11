@@ -64,10 +64,4 @@ var mixin = function (options) {
   return rdfDist;
 };
 
-
-if (!rdf.isNode) {
-  mixin();
-}
-
-
 module.exports = mixin;
